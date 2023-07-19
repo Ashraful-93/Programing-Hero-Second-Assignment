@@ -239,13 +239,62 @@ nav{
 
 /* Play instantly section completed */
 
+/* games type section start */
+
+.games{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 350px;
+    margin-top: 150px;
+}
+
+.games-container1, .games-container2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.games-container2 {
+    padding-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.games-type{
+    width: 200px;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+
+.games-image{
+    width: 40px;
+    height: 40px;
+}
+
+.games-type:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+
+}
+
 
 /* Footer section started */
 
 footer{
     background: #0B0223;
     height: 350px;
-    margin-top: 150px;
     text-align: center;
 }
 
