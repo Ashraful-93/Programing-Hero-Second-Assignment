@@ -143,10 +143,19 @@ nav{
 .online-games-text{
     text-align: center;
 }
+
+.online-games-funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .online-games-text h2{
     color: #0B0223;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
+    padding-top: 80px;
+    margin-bottom: 10px;
 }
 
 .online-games-text p{
@@ -176,4 +185,56 @@ nav{
     margin-top: 10px;
 }
 
-/* online games section completed */
+/* online games section completed and play instantly section start */
+
+.play-instantly{
+    margin: 100px 150px 50px 200px;
+
+}
+.play-instantly-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.play-instantly-text{
+    text-align: right;
+    max-width: 350px;
+    padding-left: 50px;
+}
+
+.play-instantly-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.play-instantly-title{
+    background: linear-gradient(180deg, #F948B2 0%, #d44eac 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-image{
+    position: relative;
+
+}
+.play-instantly-image img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+.play-instantly-sub-image img{
+    width: 220px;
+    height: 250px;
+    position: absolute;
+    top: 220px;
+    left: -120px;
+    
+}
+
+
