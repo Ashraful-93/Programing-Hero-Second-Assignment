@@ -318,6 +318,11 @@ nav{
     
 }
 
+.play-instantly-text{
+    text-align: right;
+    max-width: 350px;
+    padding-left: 50px;
+}
 
 .play-instantly-sub-image img{
     width: 220px;
@@ -328,6 +333,24 @@ nav{
     
 }
 
+.play-games-sub-image{
+    width: 220px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+.play-games-text{
+
+    text-align: left;
+    max-width: 350px;
+    /* padding-left: 50px; */
+}
+
+.play-games-container{
+    margin-top: 150px;
+}
 /* Play instantly section completed */
 
 /* games type section start */
@@ -580,6 +603,21 @@ footer{
 
     top: 180px;
     left: -50px;
+}
+
+.play-games-container{
+    flex-direction: column-reverse;
+    margin-top: 250px;
+}
+
+
+
+.play-games-sub-image{
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 280px;
 }
 
 .we-are-gamer{
