@@ -114,8 +114,10 @@ nav{
     font-weight: 500;
     margin-bottom:10px;
     margin-left: 10px;
- 
-    
+}
+
+.banner-text i{
+    color: #F948B2;
 }
 
 .banner-btn{
@@ -132,7 +134,51 @@ nav{
     margin: 10px 15px 10px 10px;
 }
 
-/* banner section completed and online games section start */
+/* banner section completed and we are gamer section start" */
+
+.we-are-gamer{
+    height: 450px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamer-text{
+    margin-right: 150px;
+    text-align: right;
+
+}
+.gamer-text h2{
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.gamer-text p{
+    color: #534C64;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.gamer-text q{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gamer-img{
+    margin-left: 150px;
+}
+.gamer-img img{
+    width: 600px;
+    height: auto;
+}
+
+
+/* online games section start */
 
 .online-games{
     /* height: 450px; */
@@ -175,6 +221,13 @@ nav{
 .online-games-card img{
     width: 100%;
     height: 300px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.online-games-card{
+    position: relative;
 }
 
 .online-games-card p{
@@ -184,6 +237,44 @@ nav{
     line-height: 20px;
     margin-top: 10px;
 }
+
+/* for image hover */
+
+.Watch-now {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .online-games-card:hover .image {
+    opacity: 0.5;
+    border: 3px solid #F948B2;
+    border-radius: 15px;
+  }
+  
+  .online-games-card:hover .Watch-now {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #F948B2;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -50px;
+    /* padding: 10px 20px; */
+  }
+
+  .text i{
+    font-size: 40px;
+    color: white;
+  }
+
+
 
 /* online games section completed and play instantly section start */
 
@@ -247,21 +338,19 @@ nav{
     margin-top: 150px;
 }
 
-.games-container1, .games-container2 {
+.games-container {
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 100px;
-    display: flex;
-    gap: 10px;
+    /* display: flex; */
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 15px;
 
 }
 
-.games-container2 {
-    padding-top: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
-
-}
 
 .games-type{
     width: 200px;
@@ -376,6 +465,7 @@ footer{
         width: 300px;
         height: 100%;
         margin-bottom: 50px;
+        margin-top: 20px;
     }
     .banner-text h1{
         font-size: 75px;
@@ -404,7 +494,7 @@ footer{
       } 
 
       .online-games{
-        margin: 200px 50px;
+        margin: 20px 50px 200px 50px;
 
     }
     .card-container{
@@ -415,36 +505,31 @@ footer{
     }
 
     .games{
-        height: 400px;
+        height: 300px;
         margin-top: 100px;
     }
 
-    .games-container1, .games-container2 {
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-top: 100px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 5px;
+    .games-container {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 50px;
+        /* display: flex; */
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 15px;
     
     }
 
     .games-type{
-        width: 120px;
+        width: 100px;
         padding: 5px;
-        font-size: 12px;
+        font-size: 10px;
         background-color: white;
     }
 
     .games-image{
         width: 20px;
         height: 20px;
-    }
-
-    .games-container2 {
-        padding-top: 40px;
-        margin-left: 50px;
-        margin-right: 50px;
     }
 
     .page-link{
@@ -459,7 +544,6 @@ footer{
 .privacy{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
 }
 .copyright{
     margin-top: 25px;
@@ -498,7 +582,28 @@ footer{
     left: -50px;
 }
 
+.we-are-gamer{
+    margin-top: 250px;
+    height: 650px;
+   flex-direction: column;
+}
+.gamer-text{
+    text-align: center;
+    margin-top: -100px;
+    padding-left: 50px;
 
+}
+
+.gamer-text h2{
+    font-size: 30px;
+}
+
+.gamer-img {
+    margin-left: 0px;
+}
+
+.gamer-img img{
+    width: 100%;
 }
 
 
